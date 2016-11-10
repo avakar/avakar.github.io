@@ -19,8 +19,10 @@ The state of a system is a vector of substance concentrations $\mathbf x = (x_1,
 
 An example of such model would be the following two-gene interaction also taken from the [RoVerGeNe homepage][1].
 
-$$\dot{x_a} = \kappa_a r^-(x_b, \theta^1_b, \theta^2_b)r^-(x_a, \theta^3_a, \theta^4_a) - \gamma_a x_a,$$
-$$\dot{x_b} = \kappa_b r^-(x_a, \theta^1_a, \theta^2_a) - \gamma_b x_b.$$
+$$
+\dot{x_a} = \kappa_a r^-(x_b, \theta^1_b, \theta^2_b)r^-(x_a, \theta^3_a, \theta^4_a) - \gamma_a x_a,\\
+\dot{x_b} = \kappa_b r^-(x_a, \theta^1_a, \theta^2_a) - \gamma_b x_b.
+$$
 
 Note, that the system's evolution is deterministic, i.e. given an initial state, there is a single unique curve in the state space of the system that describes system's evolution in time.
 
