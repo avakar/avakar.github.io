@@ -4,7 +4,9 @@ email: vejnar.martin@gmail.com
 github_username:  avakar
 twitter_username: avakar452
 
-# Build settings
+disqus:
+  shortname: ratatanek
+
 markdown: kramdown
 theme: minima
 gems:
