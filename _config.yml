@@ -4,9 +4,6 @@ email: vejnar.martin@gmail.com
 github_username:  avakar
 twitter_username: avakar452
 
-disqus:
-  shortname: avakar-github-io
-
 markdown: kramdown
 theme: minima
 gems:
