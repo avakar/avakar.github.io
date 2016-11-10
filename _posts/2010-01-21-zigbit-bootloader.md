@@ -17,7 +17,7 @@ The second parameter names a [SREC file][1]. You can convert Intel's HEX file to
 
 You must restart the device after starting this flash utility. The bootloader in the device is only active for the first 500 milliseconds. Unless activated within that time period, the control is transferred to the main program.
 
-##The protocol
+## The protocol
 
 The protocol that the Atmel's bootloader is documented in the SDK, but beware that the documentation is very much wrong. The good news is that the sequences listed in the document are correct:
 
@@ -44,7 +44,7 @@ For some reason, the Atmel's Java-based bootloader client sends 256-byte frames 
 
 The version 0.1 of my client performs this padding (I wasn't aware it wasn't necessary), I've removed the padding a few commits later.
 
-##Building and installing
+## Building and installing
 
 For Windows, you can download the binary release below.
 
@@ -52,7 +52,8 @@ Otherwise you will have to build from sources. You will need a C++ compiler and 
 
   [2]: http://www.boost.org/
 
-##Releases
+## Releases
+
  * v0.2: [src](/hg/zigbit_bootloader/archive/8808a7b61dea.tar.gz), [win](/files/2010-01-21-zigbit-bootloader/zigbit_bootloader-0.2.zip), [repo](/hg/zigbit_bootloader/rev/8808a7b61dea)
    * No longer sends zero-padded frames.
 

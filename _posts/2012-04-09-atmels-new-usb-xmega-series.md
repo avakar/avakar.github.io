@@ -11,7 +11,6 @@ I've only gotten to etch [a demo board][2] for it on Friday night
   [1]: http://www.atmel.com/devices/atxmega32a4u.aspx
   [2]: https://technika.junior.cz/trac/browser/demo_boards
 
-~
 
 Anyway, I have a working board now, which I can easily program with
 my [Shupito programmer][3] (shameless plug). I also got to try out
