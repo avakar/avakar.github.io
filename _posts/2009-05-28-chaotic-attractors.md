@@ -1,6 +1,7 @@
 ---
 title: Chaotic attractors
 tags: [chaotic attractors]
+mathjax: true
 ---
 
 This Monday there was a deadline for submission of bachelor's theses at my faculty. My girlfriend submitted a thesis on chaotic attractors. It concentrated more on their visual and aesthetic aspect rather than the scientific one, but I think it's still worth reading through even for those, who can't appreciate art.

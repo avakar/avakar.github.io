@@ -2,7 +2,7 @@
 title: Parameter Estimation by Model Checking for Biological Systems
 slug: parameter-estimation-model-checking-biological-systems
 tags: [systems biology, sybila, parameter estimation, model checking]
-mathjax: Yes
+mathjax: true
 ---
 
 During the last two semesters, I've been working as a member of the laboratory of systems biology on methods for estimation of parameters of biological systems. A paper is currently being written, which will hopefully appear on International Workshop on High Performance Computational Systems Biology (HiBi 2010). Though there still is work to be done, I'd like to summarize the results here in hopes that this text may also serve as a final report for the class "PA183 -- Project in Systems Biology".
