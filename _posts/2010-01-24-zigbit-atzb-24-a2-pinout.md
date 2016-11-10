@@ -9,9 +9,7 @@ My friend and I bought four ZigBit modules a few months ago, but I didn't find t
 
 There are two important chips inside the module, atmega1281 processor and at86rf230 ZigBit tranceiver. There is unfortunately no documentation from Atmel about how the chips are interconnected or how the module's pads map to the processor's pins, so I've had to map the pinout myself. Here it is.
 
-<div style="display: block; width: 592px; margin-left: auto; margin-right: auto">
-<object data="/images/zigbit_mcu_pinout_mapping_0.svg" width="592" height="598" type="image/svg+xml"><img src="/images/zigbit_mcu_pinout_mapping_0.png" alt="ZigBit ATZB-24-A2 Pinout" width="592" height="598" /></object>
-</div>
+![ZigBit ATZB-24-A2 Pinout](/images/zigbit_mcu_pinout_mapping_0.svg)
 
 Most of the pins are either supply pins or are directly connected to the embedded atmega1281 processor. There are two notable exceptions.
 
